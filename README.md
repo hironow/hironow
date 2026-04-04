@@ -1,4 +1,4 @@
-## Hi there 👋
+## If luck lets us cross paths, how lovely
 
 <!--
 **hironow/hironow** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
