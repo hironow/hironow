@@ -1,21 +1,30 @@
-## If luck lets us cross paths, how lovely
+```text
+    .           '                *                    .
+        *                 .                  '             *
+              .--------------------.
+              |    agents build    |
+              |    gates verify    |
+              |  a human approves  |
+              '--------------------'
+                  ||          ||
+   . . . . . . . .||. . . . . ||. . . . . . . . . . .
+                  ||          ||
+ .-._____.--._____||__.--.____||___.-._____.--.___.-.__
+~~~   ~~~~    ~~~~~~~~    ~~~~~~~~~    ~~~~   ~~~~~   ~~
+     "if luck lets us cross paths, how lovely"
+```
 
 I run a solo-operated, human-on-the-loop agentic engineering ecosystem:
 agents build, gates verify, a human approves. Most of what follows is
-its public surface. Everything else on this account is forks kept for
-study and contribution.
+its public surface, roughly in that order. Everything else on this
+account is forks kept for study and contribution.
 
 ### The workshop
 
 - [dotfiles](https://github.com/hironow/dotfiles) — the home base: distributes agent instructions hub-and-spoke across coding agents, ships vendored local emulator and telemetry stacks, and tests itself in a throwaway devcontainer sandbox ([site](https://hironow.github.io/dotfiles/))
 - [homebrew-tap](https://github.com/hironow/homebrew-tap) — `brew tap hironow/tap`
 
-### The gates
-
-- [runops-gateway](https://github.com/hironow/runops-gateway) — approve Cloud Run canary rollouts and Cloud SQL migrations from Slack buttons; a human-in-the-loop ChatOps gateway in Go + OpenTofu on Cloud Run
-- [semgrep-guardrails](https://github.com/hironow/semgrep-guardrails) — semantic grep harness for guardrail rules
-
-### The fleet
+### The fleet — agents that build
 
 A family of experimental Go automation agents:
 [sightjack](https://github.com/hironow/sightjack),
@@ -27,7 +36,14 @@ Still rough, but they already build software end-to-end:
 [weaveback](https://github.com/hironow/weaveback), a Go client and CLI for the
 Weave Feedback API, is their work, not mine.
 
-### Contracts, data, and research tooling
+- [Coders](https://github.com/hironow/Coders) — tightly-scoped agent task sandbox; human instruction and review only
+
+### The gates — verification and approval
+
+- [semgrep-guardrails](https://github.com/hironow/semgrep-guardrails) — semantic grep harness for guardrail rules
+- [runops-gateway](https://github.com/hironow/runops-gateway) — approve Cloud Run canary rollouts and Cloud SQL migrations from Slack buttons; a human-in-the-loop ChatOps gateway in Go + OpenTofu on Cloud Run
+
+### The bench — contracts, data, and research tooling
 
 - [firepact](https://github.com/hironow/firepact) — a type contract between a Pydantic backend and a TypeScript frontend for realtime Firestore documents; generates the wire types and gates backward/forward compatibility in CI (Rust)
 - [tablecodec](https://github.com/hironow/tablecodec) — convert, validate, and measure loss between table-recognition dataset formats (PubTabNet, OTSL, PubTables-1M) via a neutral IR
@@ -42,5 +58,3 @@ Weave Feedback API, is their work, not mine.
 ### Small tools
 
 - [jsonrpc-custom-client](https://github.com/hironow/jsonrpc-custom-client) — Next.js UI to explore JSON-RPC over WebSocket
-- [Coders](https://github.com/hironow/Coders) — tightly-scoped agent task sandbox; human instruction and review only
-

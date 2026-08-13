@@ -9,12 +9,11 @@ README.md is a full profile page: greeting plus sectioned links (workshop / gate
 
 ## In Progress
 
-- README 再構成 (restructuring) — requester が意向を表明済み、方向性は未確定
+- なし — README 再構成は 2026-08-14 に完了（ASCII アート「wayside sign」を玄関に、build → verify → approve のナラティブ順へセクションを再配置。独立レビュー済み、requester がアート案を選定）
 
 ## Next Actions
 
-1. requester と README 再構成の方向性を確定する
-2. requester による docs/intent.md ドラフトのレビューと確定
+1. requester による docs/intent.md ドラフトのレビューと確定
 
 ## Known Risks / Blockers
 
