@@ -41,7 +41,6 @@ Weave Feedback API, is their work, not mine.
 
 ### Small tools
 
-- [notifoo](https://github.com/hironow/notifoo) — a PWA that notifies you awake
 - [jsonrpc-custom-client](https://github.com/hironow/jsonrpc-custom-client) — Next.js UI to explore JSON-RPC over WebSocket
 - [Coders](https://github.com/hironow/Coders) — tightly-scoped agent task sandbox; human instruction and review only
 

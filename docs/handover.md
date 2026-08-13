@@ -1,19 +1,20 @@
 # Handover
 
-**Last updated:** 2026-06-10 (JST)
-**Updated by:** claude (AI draft from git history — review before trusting)
+**Last updated:** 2026-08-14 (JST)
+**Updated by:** claude
 
 ## Current State
 
-The repository contains a single README.md that renders as the GitHub profile page: a one-line greeting ("If luck lets us cross paths, how lovely") and a link to the dotfiles site (hironow.github.io/dotfiles). Last meaningful commit: `c1b44f0` "Add link to dotfiles in README" on 2026-05-31.
+README.md is a full profile page: greeting plus sectioned links (workshop / gates / fleet / contracts-data-research / hackathon / small tools) to hironow's public repositories. All linked repositories were verified PUBLIC on 2026-08-14; the one PRIVATE repo (notifoo) was removed from the README.
 
 ## In Progress
 
-不明 (git 履歴からは判別できず) — nothing evident; only three commits exist in total.
+- README 再構成 (restructuring) — requester が意向を表明済み、方向性は未確定
 
 ## Next Actions
 
-1. requester による docs/intent.md ドラフトのレビューと確定
+1. requester と README 再構成の方向性を確定する
+2. requester による docs/intent.md ドラフトのレビューと確定
 
 ## Known Risks / Blockers
 
