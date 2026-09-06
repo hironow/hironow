@@ -1,11 +1,11 @@
 # Handover
 
-**Last updated:** 2026-08-14 (JST)
+**Last updated:** 2026-09-07 (JST)
 **Updated by:** claude
 
 ## Current State
 
-README.md is a full profile page: greeting plus sectioned links (workshop / gates / fleet / contracts-data-research / hackathon / small tools) to hironow's public repositories. All linked repositories were verified PUBLIC on 2026-08-14; the one PRIVATE repo (notifoo) was removed from the README.
+README.md is a full profile page: greeting plus sectioned links (workshop / gates / fleet / contracts-data-research / hackathon / small tools) to hironow's public repositories. Re-verified on 2026-09-07 against the public, non-fork, non-archived repositories: every link resolves to a public repo; added `skills` (public since 2026-09-07) to the workshop and `earcon` (public since 2026-09-03) to small tools. Deliberately unlisted: `D` (empty), `firebase-auth-unity-minimal` (a 2018 test), and the archived repos.
 
 ## In Progress
 

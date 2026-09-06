@@ -21,6 +21,7 @@ the rest of this account is forks kept for study.
 ### The workshop
 
 - [dotfiles](https://github.com/hironow/dotfiles) — home base: hub-and-spoke agent instructions, vendored local emulator and telemetry stacks, self-tested in a devcontainer sandbox ([site](https://hironow.github.io/dotfiles/))
+- [skills](https://github.com/hironow/skills) — agent skills (`SKILL.md`) for Claude Code, pi, Codex, and Gemini; every skill carries its provenance and upstream credit, and the repo audits itself (`bunx skills add hironow/skills`)
 - [homebrew-tap](https://github.com/hironow/homebrew-tap) — `brew tap hironow/tap`
 
 ### The fleet — agents that build
@@ -48,5 +49,6 @@ the rest of this account is forks kept for study.
 
 ### Small tools
 
+- [earcon](https://github.com/hironow/earcon) — sonification hook for React: a continuous value drives the repetition rate and pitch of a synthesized earcon, so you hear what is *approaching* (`@earcon/*` on npm, [demo](https://hironow.github.io/earcon/))
 - [cyber](https://github.com/hironow/cyber) — Cyber Thunder Cider Harness: agent tools and skills
 - [jsonrpc-custom-client](https://github.com/hironow/jsonrpc-custom-client) — Next.js UI to explore JSON-RPC over WebSocket
